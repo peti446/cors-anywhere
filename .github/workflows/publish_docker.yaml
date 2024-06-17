@@ -1,6 +1,7 @@
 # Build on tag the docker file and  publish to docker hub
 name: Publish Docker image
 on:
+  workflow_dispatch:
   push:
     tags:
       - '*'
